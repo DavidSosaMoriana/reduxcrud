@@ -1,8 +1,4 @@
-/*
-=============== 
-Variables
-===============
-*/
+/* Variables */
 
 :root {
   --clr-primary: #645cff;
@@ -10,7 +6,7 @@ Variables
   --clr-primary-light: #a29dff;
   --clr-grey-1: #102a42;
   --clr-grey-5: #617d98;
-  --clr-grey-10: #f1f5f8;
+  --clr-grey-10: #fcf9f9;
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
@@ -109,11 +105,8 @@ p {
   background: var(--clr-primary-light);
 }
 
-/*
-=============== 
-Navbar
-===============
-*/
+/* Navbar */
+
 .loading {
   text-align: center;
   margin-top: 5rem;
@@ -160,11 +153,8 @@ nav svg {
   margin-bottom: 0;
   font-size: 1.25rem;
 }
-/*
-=============== 
-Cart
-===============
-*/
+/* Cart */
+ 
 .cart {
   min-height: calc(100vh - 120px);
   width: 90vw;
@@ -212,11 +202,8 @@ Cart
   border-color: var(--clr-primary);
   color: var(--clr-primary);
 }
-/*
-=============== 
-Cart Item
-===============
-*/
+/* Cart Item */
+ 
 .cart-item {
   display: grid;
   align-items: center;
